@@ -3,8 +3,6 @@ eSK - extensible Station Kit
 eSK stellt ein Bahnsteigsystem dar, das durch jeden mit weiteren Inhalten erweitert werden kann.
 Hierzu bestand vor einiger Zeit unter trai.nz/eSK eine Anleitung, die leider verloren ging, ich werde diese im Lauf der Zeit neu verfassen.
 
-Dieser Lexikon-Eintrag darf natürlich von jedem Nutzer mit-erweitert werden :)
-
 # 1. Nutzung:
 Die Nutzung von eSK beim Streckenbau hat Mika im folgenden Video beschrieben:
 https://www.youtube.com/watch?v=QG2vFTdicHU
@@ -34,8 +32,6 @@ Displaypositionen
 Bahnhofsschildpositionen
 Lampenpositionen
 Die Bennenung und die Konfiguration der Helper kann bei Bedarf den Beispielassets entnommen werden:
-
-eSK_platform_templates.zip
 
 Natürlich kann eine Bahnhofsvorlage auch weitere Gestaltung wie zB. ein Empfangsgebäude enthalten.
 
