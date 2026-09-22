@@ -1,0 +1,2 @@
+Primary=icon_s200.tga
+Tile=st
