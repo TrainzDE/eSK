@@ -1,0 +1,2 @@
+Primary=rtm_0001.tga
+Tile=st

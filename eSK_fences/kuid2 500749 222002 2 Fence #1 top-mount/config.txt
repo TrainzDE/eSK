@@ -1,0 +1,69 @@
+﻿
+username                                "Fence #1 top-mounted"
+kuid                                    <kuid2:500749:222002:2>
+kind                                    "track"
+istrack                                 0
+isroad                                  1
+description                             "top-mounted fence for the eSK-System."
+trainz-build                            3.7
+visible-on-minimap                      0
+category-class                          "BR"
+category-region                         "DE"
+category-era                            "2000s;2010s"
+category-keyword                        "fence;zaun;gelaender;eSK;StationKit;extensibleStationKit;TrainzDepot"
+author                                  "Ustinov1994,DanielM,-Basti-"
+organisation                            "TrainzDepot"
+contact-website                         "http://www.trainzdepot.net"
+contact-email                           "basti@trainzdepot.net"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/"
+
+mesh-table
+{
+  fence
+  {
+    mesh                                "fence.im"
+  }
+  
+  fence_end
+  {
+    mesh                                "fence_end.im"
+  }
+}
+
+track
+{
+  mesh-length                           2
+  adjust-cross-section-to-ground        0
+  adjust-height-to-ground-offset        0
+  coordinate-transformation             "shear"
+  use-superelevation                    0
+  
+  track-lod-tree
+  {
+    mesh                                "fence"
+  }
+}
+
+endcap-next
+{
+  mesh-length                           0.15
+  
+  track-lod-tree
+  {
+    mesh                                "fence_end"
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "screen.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}
