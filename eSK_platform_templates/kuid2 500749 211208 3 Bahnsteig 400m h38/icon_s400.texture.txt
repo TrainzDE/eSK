@@ -1,0 +1,2 @@
+Primary=icon_s400.tga
+Tile=st
