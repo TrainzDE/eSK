@@ -1,0 +1,2 @@
+Primary=bahnsteig.png
+Tile=st

@@ -1,0 +1,54 @@
+﻿
+username                                "Platform #5 h76 w4"
+kuid                                    <kuid2:500749:221005:2>
+kind                                    "track"
+istrack                                 0
+isroad                                  1
+description                             "Single-Platform for the eSK-Plaformset"
+trainz-build                            3.7
+visible-on-minimap                      0
+category-class                          "BR"
+category-region                         "DE"
+category-era                            "1980s;1990s;2000s;2010s"
+category-keyword                        "eSK;StationKit;extensibleStationKit;Bahnsteig;TrainzDepot"
+author                                  "Ustinov1994,-Basti-"
+organisation                            "TrainzDepot"
+contact-website                         "http://www.trainzdepot.net"
+contact-email                           "basti@trainzdepot.net"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/"
+
+mesh-table
+{
+  platform
+  {
+    mesh                                "platform.im"
+  }
+}
+
+track
+{
+  mesh-length                           2
+  adjust-cross-section-to-ground        0
+  adjust-height-to-ground-offset        0
+  coordinate-transformation             "shear"
+  use-superelevation                    0
+  
+  track-lod-tree
+  {
+    mesh                                "platform"
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "rscreen.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}
