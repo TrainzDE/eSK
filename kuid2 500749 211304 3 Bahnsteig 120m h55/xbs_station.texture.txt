@@ -1,2 +1,0 @@
-Primary=esk_station.jpg
-Tile=st
