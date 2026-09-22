@@ -1,0 +1,2 @@
+Primary=bank_grass.tga
+Tile=dynamic

@@ -1,0 +1,55 @@
+﻿
+username                                "Embankment #3 grass"
+kuid                                    <kuid2:500749:224003:2>
+kind                                    "track"
+istrack                                 0
+isroad                                  1
+description                             "Grass-embankment for the eSK-System."
+trainz-build                            3.7
+visible-on-minimap                      0
+category-class                          "BR"
+category-region                         "DE"
+category-era                            "1980s;1990s;2000s;2010s"
+category-keyword                        "Bank,Boeschung;eSK;StationKit;extensibleStationKit;TrainzDepot"
+author                                  "Ustinov1994,DanielM,-Basti-,Samplaire"
+organisation                            "TrainzDepot"
+contact-website                         "http://www.trainzdepot.net"
+contact-email                           "basti@trainzdepot.net"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/ excluding the texture by Samplaire"
+
+mesh-table
+{
+  platform
+  {
+    mesh                                "bank_grass.im"
+    auto-create                         1
+  }
+}
+
+track
+{
+  mesh-length                           4
+  adjust-cross-section-to-ground        0
+  adjust-height-to-ground-offset        0
+  coordinate-transformation             "shear"
+  use-superelevation                    0
+  
+  track-lod-tree
+  {
+    mesh                                "platform"
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "screen.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}
