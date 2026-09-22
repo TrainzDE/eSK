@@ -1,0 +1,4 @@
+Primary=bahnsteig_normal.png
+Alpha=bahnsteig_normal.png
+NormalMapHint=normalmap
+Tile=st
