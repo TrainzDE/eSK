@@ -1,0 +1,2 @@
+Primary=seite.tga
+Tile=st
