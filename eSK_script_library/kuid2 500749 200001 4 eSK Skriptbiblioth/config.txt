@@ -1,0 +1,125 @@
+﻿
+kuid                                    <kuid2:500749:200001:4>
+username                                "eSK Skriptbibliothek"
+kind                                    "library"
+trainz-build                            4.3
+category-class                          "YL"
+category-era                            "2010s"
+category-region                         "DE"
+category-keyword                        "eSK;StationKit;extensibleStationKit;Skript;Script;TrainzDepot"
+script                                  "esklib2.gs"
+class                                   "ESK_LIBRARY"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/"
+description                             "Script library for eSK Station Kit."
+
+string-table
+{
+  mask                                  "Line display mask (X = Characters, 0 = digits)"
+  mask-tp                               "Change mask (e.g. X0 = RE71, X = RE, 0 = 71, 0X = 71RE, X 0 = RE 71)"
+  mask-prop                             "Set mask"
+  external-displays                     "External Track Displays"
+  display-edit-tp                       "Change display"
+  display-edit-prop                     "Select new Display"
+  display-delete                        "[-]"
+  display-delete-tp                     "Remove display"
+  display-add                           "[+]"
+  display-add-tp                        "Add a new display"
+  display-add-prop                      "Select new display"
+  platform                              "Platform "
+  number                                "number"
+  platform_number                       "Platformnumber"
+  name                                  "name"
+  stop_positions                        "Train stops at"
+  start                                 "start (A)"
+  center                                "center"
+  end                                   "end (B)"
+  html_position                         "Position #"
+  html_display                          "Display "
+  html_type_a                           "Type A"
+  html_type_b                           "Type B"
+  html_type_c                           "Type C"
+  html_none                             "none"
+  html_none1                            "none"
+  html_sign                             "Stationsign "
+  html_lamp                             "Lamp "
+  html_mounting                         "(mounting)"
+  html_pole                             "pole"
+  html_roof                             "roof"
+  html_wall                             "wall"
+  html_other                            "other"
+  html_tooltip_foldin                   "fold in"
+  html_tooltip_foldout                  "fold out"
+  display_type                          "Type of display"
+  sign_type                             "Type of stationsigns"
+  lamp_type                             "Type of lamp"
+  stationspeed                          "Speed at platform"
+  default                               "config default"
+  waitingtime                           "waiting times - "
+  priority                              " priority "
+  html_for_priority                     "for priority"
+  stationname                           "Name on stationsigns"
+  useobjectname                         "Use objectname"
+}
+
+string-table-de
+{
+  mask                                  "Linien Formatierung (X = Buchstabe, 0 = Ziffern)"
+  mask-tp                               "Formatierung änderung (z.B. X0 = RE71, X = RE, 0 = 71, 0X = 71RE, X 0 = RE 71)"
+  mask-prop                             "Wähle Formatierung"
+  external-displays                     "Externe Zugzielanzeigen"
+  display-edit-tp                       "Anzeiger Ã¤ndern"
+  display-edit-prop                     "Neuen Anzeiger wÃ¤hlen"
+  display-delete                        "[-]"
+  display-delete-tp                     "Anzeiger lÃ¶schen"
+  display-add                           "[+]"
+  display-add-tp                        "Neuen Anzeiger hinzufÃ¼gen"
+  display-add-prop                      "Neuen Anzeiger wÃ¤hlen"
+  platform                              "Gleis "
+  number                                "Nummer"
+  platform_number                       "Gleisnummer"
+  name                                  "Name"
+  stop_positions                        "Position des Zughalts"
+  start                                 "Anfang (A)"
+  center                                "Mitte"
+  end                                   "Ende (B)"
+  html_position                         "Position #"
+  html_display                          "Anzeige "
+  html_type_a                           "Typ A"
+  html_type_b                           "Typ B"
+  html_type_c                           "Typ C"
+  html_none                             "keine"
+  html_none1                            "kein"
+  html_sign                             "Stationsschild "
+  html_lamp                             "Leuchte "
+  html_mounting                         "(Befestigung)"
+  html_pole                             "Mast"
+  html_roof                             "Dach"
+  html_wall                             "Wand"
+  html_other                            "Andere"
+  html_tooltip_foldin                   "Einklappen"
+  html_tooltip_foldout                  "Ausklappen"
+  display_type                          "Abfahrtsanzeigen"
+  sign_type                             "Stationsschilder"
+  lamp_type                             "Leuchten"
+  stationspeed                          "Geschwindigkeit am Bahnsteig"
+  default                               "Config-Standard"
+  waitingtime                           "Aufenthaltszeiten - "
+  priority                              " Prioritaet "
+  html_for_priority                     "fuer Prioritaet"
+  stationname                           "Name auf den Schildern"
+  useobjectname                         "Verwende Objektnamen"
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "esklib2.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}
