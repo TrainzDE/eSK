@@ -1,2 +1,0 @@
-Primary=icon_s150.tga
-Tile=st
