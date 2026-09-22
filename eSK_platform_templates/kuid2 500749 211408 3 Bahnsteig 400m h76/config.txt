@@ -1,0 +1,1167 @@
+﻿
+kuid                                    <kuid2:500749:211408:3>
+username                                "Platform 400m h76 1g s"
+username-de                             "Bahnsteig 400m h76 1g s"
+kind                                    "industry"
+trainz-build                            4.2
+category-era                            "1980s;1990s;2000s;2010s"
+category-region                         "DE"
+rotate-yz-range                         -10,10
+rollstep                                0.05
+script                                  "esk.gs"
+class                                   "ESKGS"
+category-class                          "BPF"
+autoname                                1
+
+script-include-table
+{
+  0                                     <kuid:500749:200001>
+}
+
+mesh-table
+{
+  default
+  {
+    mesh                                "esk_station.im"
+    auto-create                         1
+    light                               1
+    
+    effects
+    {
+      position_1_1
+      {
+        kind                            "attachment"
+        att                             "a.acc39p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_2
+      {
+        kind                            "attachment"
+        att                             "a.acc38p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_3
+      {
+        kind                            "attachment"
+        att                             "a.acc37p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_4
+      {
+        kind                            "attachment"
+        att                             "a.acc36p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_5
+      {
+        kind                            "attachment"
+        att                             "a.acc35p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_6
+      {
+        kind                            "attachment"
+        att                             "a.acc34p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_7
+      {
+        kind                            "attachment"
+        att                             "a.acc33p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_8
+      {
+        kind                            "attachment"
+        att                             "a.acc32p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_9
+      {
+        kind                            "attachment"
+        att                             "a.acc31p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_10
+      {
+        kind                            "attachment"
+        att                             "a.acc30p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_11
+      {
+        kind                            "attachment"
+        att                             "a.acc29p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_12
+      {
+        kind                            "attachment"
+        att                             "a.acc28p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_13
+      {
+        kind                            "attachment"
+        att                             "a.acc27p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_14
+      {
+        kind                            "attachment"
+        att                             "a.acc26p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_15
+      {
+        kind                            "attachment"
+        att                             "a.acc25p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_16
+      {
+        kind                            "attachment"
+        att                             "a.acc24p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_17
+      {
+        kind                            "attachment"
+        att                             "a.acc23p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_18
+      {
+        kind                            "attachment"
+        att                             "a.acc22p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_19
+      {
+        kind                            "attachment"
+        att                             "a.acc21p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_20
+      {
+        kind                            "attachment"
+        att                             "a.acc20p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_21
+      {
+        kind                            "attachment"
+        att                             "a.acc19p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_22
+      {
+        kind                            "attachment"
+        att                             "a.acc18p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_23
+      {
+        kind                            "attachment"
+        att                             "a.acc17p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_24
+      {
+        kind                            "attachment"
+        att                             "a.acc16p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_25
+      {
+        kind                            "attachment"
+        att                             "a.acc15p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_26
+      {
+        kind                            "attachment"
+        att                             "a.acc14p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_27
+      {
+        kind                            "attachment"
+        att                             "a.acc13p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_28
+      {
+        kind                            "attachment"
+        att                             "a.acc12p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_29
+      {
+        kind                            "attachment"
+        att                             "a.acc11p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_30
+      {
+        kind                            "attachment"
+        att                             "a.acc10p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_31
+      {
+        kind                            "attachment"
+        att                             "a.acc9p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_32
+      {
+        kind                            "attachment"
+        att                             "a.acc8p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_33
+      {
+        kind                            "attachment"
+        att                             "a.acc7p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_34
+      {
+        kind                            "attachment"
+        att                             "a.acc6p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_35
+      {
+        kind                            "attachment"
+        att                             "a.acc5p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_36
+      {
+        kind                            "attachment"
+        att                             "a.acc4p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_37
+      {
+        kind                            "attachment"
+        att                             "a.acc3p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_38
+      {
+        kind                            "attachment"
+        att                             "a.acc2p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_39
+      {
+        kind                            "attachment"
+        att                             "a.acc1p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_40
+      {
+        kind                            "attachment"
+        att                             "a.acc0"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_41
+      {
+        kind                            "attachment"
+        att                             "a.acc1n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_42
+      {
+        kind                            "attachment"
+        att                             "a.acc2n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_43
+      {
+        kind                            "attachment"
+        att                             "a.acc3n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_44
+      {
+        kind                            "attachment"
+        att                             "a.acc4n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_45
+      {
+        kind                            "attachment"
+        att                             "a.acc5n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_46
+      {
+        kind                            "attachment"
+        att                             "a.acc6n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_47
+      {
+        kind                            "attachment"
+        att                             "a.acc7n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_48
+      {
+        kind                            "attachment"
+        att                             "a.acc8n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_49
+      {
+        kind                            "attachment"
+        att                             "a.acc9n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_50
+      {
+        kind                            "attachment"
+        att                             "a.acc10n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_51
+      {
+        kind                            "attachment"
+        att                             "a.acc11n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_52
+      {
+        kind                            "attachment"
+        att                             "a.acc12n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_53
+      {
+        kind                            "attachment"
+        att                             "a.acc13n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_54
+      {
+        kind                            "attachment"
+        att                             "a.acc14n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_55
+      {
+        kind                            "attachment"
+        att                             "a.acc15n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_56
+      {
+        kind                            "attachment"
+        att                             "a.acc16n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_57
+      {
+        kind                            "attachment"
+        att                             "a.acc17n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_58
+      {
+        kind                            "attachment"
+        att                             "a.acc18n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_59
+      {
+        kind                            "attachment"
+        att                             "a.acc19n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_60
+      {
+        kind                            "attachment"
+        att                             "a.acc20n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_61
+      {
+        kind                            "attachment"
+        att                             "a.acc21n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_62
+      {
+        kind                            "attachment"
+        att                             "a.acc22n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_63
+      {
+        kind                            "attachment"
+        att                             "a.acc23n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_64
+      {
+        kind                            "attachment"
+        att                             "a.acc24n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_65
+      {
+        kind                            "attachment"
+        att                             "a.acc25n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_66
+      {
+        kind                            "attachment"
+        att                             "a.acc26n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_67
+      {
+        kind                            "attachment"
+        att                             "a.acc27n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_68
+      {
+        kind                            "attachment"
+        att                             "a.acc28n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_69
+      {
+        kind                            "attachment"
+        att                             "a.acc29n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_70
+      {
+        kind                            "attachment"
+        att                             "a.acc30n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_71
+      {
+        kind                            "attachment"
+        att                             "a.acc31n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_72
+      {
+        kind                            "attachment"
+        att                             "a.acc32n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_73
+      {
+        kind                            "attachment"
+        att                             "a.acc33n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_74
+      {
+        kind                            "attachment"
+        att                             "a.acc34n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_75
+      {
+        kind                            "attachment"
+        att                             "a.acc35n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_76
+      {
+        kind                            "attachment"
+        att                             "a.acc36n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_77
+      {
+        kind                            "attachment"
+        att                             "a.acc37n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_78
+      {
+        kind                            "attachment"
+        att                             "a.acc38n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_79
+      {
+        kind                            "attachment"
+        att                             "a.acc39n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      marker_a
+      {
+        kind                            "attachment"
+        att                             "a.trig1a"
+        default-mesh                    <kuid:500749:299004>
+        surveyor-only                   1
+      }
+      
+      marker_b
+      {
+        kind                            "attachment"
+        att                             "a.trig1g"
+        default-mesh                    <kuid:500749:299005>
+        surveyor-only                   1
+      }
+      
+      stop_1_0
+      {
+        kind                            "attachment"
+        att                             "a.trig1a"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+      
+      stop_1_1
+      {
+        kind                            "attachment"
+        att                             "a.trig1c"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+      
+      stop_1_2
+      {
+        kind                            "attachment"
+        att                             "a.trig1e"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+    }
+  }
+}
+
+attached-track
+{
+  track_1
+  {
+    track                               <kuid2:53424:152:3>
+    
+    vertices
+    {
+      0                                 "a.track1a"
+      1                                 "a.track1b"
+    }
+  }
+  
+  platform_1
+  {
+    track                               <kuid:500749:221001>
+    
+    vertices
+    {
+      0                                 "a.bs01"
+      1                                 "a.bs02"
+    }
+  }
+  
+  bank_1
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.bank1a"
+      1                                 "a.bank1b"
+    }
+  }
+  
+  fence_1
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.fence1a"
+      1                                 "a.fence1b"
+    }
+  }
+  
+  fence_2
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.fence2a"
+      1                                 "a.fence2b"
+    }
+  }
+}
+
+attached-trigger
+{
+  trigger_track_1_ende1
+  {
+    att                                 "a.trig1a"
+    radius                              5
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill1
+  {
+    att                                 "a.trig1b"
+    radius                              45
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill2
+  {
+    att                                 "a.trig1c"
+    radius                              47.5
+    track                               "track_1"
+  }
+  
+  trigger_track_1_mitte
+  {
+    att                                 "a.trig1d"
+    radius                              5
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill3
+  {
+    att                                 "a.trig1e"
+    radius                              47.5
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill4
+  {
+    att                                 "a.trig1f"
+    radius                              45
+    track                               "track_1"
+  }
+  
+  trigger_track_1_ende2
+  {
+    att                                 "a.trig1g"
+    radius                              5
+    track                               "track_1"
+  }
+}
+
+queues
+{
+  passengers_on_0
+  {
+    passenger-queue                     "1"
+    size                                160
+    initial-count                       100
+    product-kuid                        <kuid:-3:10060>
+    
+    attachment-points
+    {
+      0                                 "a.pass1_001"
+      1                                 "a.pass1_002"
+      2                                 "a.pass1_003"
+      3                                 "a.pass1_004"
+      4                                 "a.pass1_005"
+      5                                 "a.pass1_006"
+      6                                 "a.pass1_007"
+      7                                 "a.pass1_008"
+      8                                 "a.pass1_009"
+      9                                 "a.pass1_010"
+      10                                "a.pass1_011"
+      11                                "a.pass1_012"
+      12                                "a.pass1_013"
+      13                                "a.pass1_014"
+      14                                "a.pass1_015"
+      15                                "a.pass1_016"
+      16                                "a.pass1_017"
+      17                                "a.pass1_018"
+      18                                "a.pass1_019"
+      19                                "a.pass1_020"
+      20                                "a.pass1_021"
+      21                                "a.pass1_022"
+      22                                "a.pass1_023"
+      23                                "a.pass1_024"
+      24                                "a.pass1_025"
+      25                                "a.pass1_026"
+      26                                "a.pass1_027"
+      27                                "a.pass1_028"
+      28                                "a.pass1_029"
+      29                                "a.pass1_030"
+      30                                "a.pass1_031"
+      31                                "a.pass1_032"
+      32                                "a.pass1_033"
+      33                                "a.pass1_034"
+      34                                "a.pass1_035"
+      35                                "a.pass1_036"
+      36                                "a.pass1_037"
+      37                                "a.pass1_038"
+      38                                "a.pass1_039"
+      39                                "a.pass1_040"
+      40                                "a.pass1_041"
+      41                                "a.pass1_042"
+      42                                "a.pass1_043"
+      43                                "a.pass1_044"
+      44                                "a.pass1_045"
+      45                                "a.pass1_046"
+      46                                "a.pass1_047"
+      47                                "a.pass1_048"
+      48                                "a.pass1_049"
+      49                                "a.pass1_050"
+      50                                "a.pass1_051"
+      51                                "a.pass1_052"
+      52                                "a.pass1_053"
+      53                                "a.pass1_054"
+      54                                "a.pass1_055"
+      55                                "a.pass1_056"
+      56                                "a.pass1_057"
+      57                                "a.pass1_058"
+      58                                "a.pass1_059"
+      59                                "a.pass1_060"
+      60                                "a.pass1_061"
+      61                                "a.pass1_062"
+      62                                "a.pass1_063"
+      63                                "a.pass1_064"
+      64                                "a.pass1_065"
+      65                                "a.pass1_066"
+      66                                "a.pass1_067"
+      67                                "a.pass1_068"
+      68                                "a.pass1_069"
+      69                                "a.pass1_070"
+      70                                "a.pass1_071"
+      71                                "a.pass1_072"
+      72                                "a.pass1_073"
+      73                                "a.pass1_074"
+      74                                "a.pass1_075"
+      75                                "a.pass1_076"
+      76                                "a.pass1_077"
+      77                                "a.pass1_078"
+      78                                "a.pass1_079"
+      79                                "a.pass1_080"
+      80                                "a.pass1_081"
+      81                                "a.pass1_082"
+      82                                "a.pass1_083"
+      83                                "a.pass1_084"
+      84                                "a.pass1_085"
+      85                                "a.pass1_086"
+      86                                "a.pass1_087"
+      87                                "a.pass1_088"
+      88                                "a.pass1_089"
+      89                                "a.pass1_090"
+      90                                "a.pass1_091"
+      91                                "a.pass1_092"
+      92                                "a.pass1_093"
+      93                                "a.pass1_094"
+      94                                "a.pass1_095"
+      95                                "a.pass1_096"
+      96                                "a.pass1_097"
+      97                                "a.pass1_098"
+      98                                "a.pass1_099"
+      99                                "a.pass1_100"
+      100                               "a.pass1_101"
+      101                               "a.pass1_102"
+      102                               "a.pass1_103"
+      103                               "a.pass1_104"
+      104                               "a.pass1_105"
+      105                               "a.pass1_106"
+      106                               "a.pass1_107"
+      107                               "a.pass1_108"
+      108                               "a.pass1_109"
+      109                               "a.pass1_110"
+      110                               "a.pass1_111"
+      111                               "a.pass1_112"
+      112                               "a.pass1_113"
+      113                               "a.pass1_114"
+      114                               "a.pass1_115"
+      115                               "a.pass1_116"
+      116                               "a.pass1_117"
+      117                               "a.pass1_118"
+      118                               "a.pass1_119"
+      119                               "a.pass1_120"
+      120                               "a.pass1_121"
+      121                               "a.pass1_122"
+      122                               "a.pass1_123"
+      123                               "a.pass1_124"
+      124                               "a.pass1_125"
+      125                               "a.pass1_126"
+      126                               "a.pass1_127"
+      127                               "a.pass1_128"
+      128                               "a.pass1_129"
+      129                               "a.pass1_130"
+      130                               "a.pass1_131"
+      131                               "a.pass1_132"
+      132                               "a.pass1_133"
+      133                               "a.pass1_134"
+      134                               "a.pass1_135"
+      135                               "a.pass1_136"
+      136                               "a.pass1_137"
+      137                               "a.pass1_138"
+      138                               "a.pass1_139"
+      139                               "a.pass1_140"
+      140                               "a.pass1_141"
+      141                               "a.pass1_142"
+      142                               "a.pass1_143"
+      143                               "a.pass1_144"
+      144                               "a.pass1_145"
+      145                               "a.pass1_146"
+      146                               "a.pass1_147"
+      147                               "a.pass1_148"
+      148                               "a.pass1_149"
+      149                               "a.pass1_150"
+      150                               "a.pass1_151"
+      151                               "a.pass1_152"
+      152                               "a.pass1_153"
+      153                               "a.pass1_154"
+      154                               "a.pass1_155"
+      155                               "a.pass1_156"
+      156                               "a.pass1_157"
+      157                               "a.pass1_158"
+      158                               "a.pass1_159"
+      159                               "a.pass1_160"
+    }
+  }
+  
+  passengers_off_0
+  {
+    passenger-queue                     "1"
+    size                                80
+    initial-count                       0
+    product-kuid                        <kuid:-3:10060>
+    
+    attachment-points
+    {
+      0                                 "a.passoff1_001"
+      1                                 "a.passoff1_002"
+      2                                 "a.passoff1_003"
+      3                                 "a.passoff1_004"
+      4                                 "a.passoff1_005"
+      5                                 "a.passoff1_006"
+      6                                 "a.passoff1_007"
+      7                                 "a.passoff1_008"
+      8                                 "a.passoff1_009"
+      9                                 "a.passoff1_010"
+      10                                "a.passoff1_011"
+      11                                "a.passoff1_012"
+      12                                "a.passoff1_013"
+      13                                "a.passoff1_014"
+      14                                "a.passoff1_015"
+      15                                "a.passoff1_016"
+      16                                "a.passoff1_017"
+      17                                "a.passoff1_018"
+      18                                "a.passoff1_019"
+      19                                "a.passoff1_020"
+      20                                "a.passoff1_021"
+      21                                "a.passoff1_022"
+      22                                "a.passoff1_023"
+      23                                "a.passoff1_024"
+      24                                "a.passoff1_025"
+      25                                "a.passoff1_026"
+      26                                "a.passoff1_027"
+      27                                "a.passoff1_028"
+      28                                "a.passoff1_029"
+      29                                "a.passoff1_030"
+      30                                "a.passoff1_031"
+      31                                "a.passoff1_032"
+      32                                "a.passoff1_033"
+      33                                "a.passoff1_034"
+      34                                "a.passoff1_035"
+      35                                "a.passoff1_036"
+      36                                "a.passoff1_037"
+      37                                "a.passoff1_038"
+      38                                "a.passoff1_039"
+      39                                "a.passoff1_040"
+      40                                "a.passoff1_041"
+      41                                "a.passoff1_042"
+      42                                "a.passoff1_043"
+      43                                "a.passoff1_044"
+      44                                "a.passoff1_045"
+      45                                "a.passoff1_046"
+      46                                "a.passoff1_047"
+      47                                "a.passoff1_048"
+      48                                "a.passoff1_049"
+      49                                "a.passoff1_050"
+      50                                "a.passoff1_051"
+      51                                "a.passoff1_052"
+      52                                "a.passoff1_053"
+      53                                "a.passoff1_054"
+      54                                "a.passoff1_055"
+      55                                "a.passoff1_056"
+      56                                "a.passoff1_057"
+      57                                "a.passoff1_058"
+      58                                "a.passoff1_059"
+      59                                "a.passoff1_060"
+      60                                "a.passoff1_061"
+      61                                "a.passoff1_062"
+      62                                "a.passoff1_063"
+      63                                "a.passoff1_064"
+      64                                "a.passoff1_065"
+      65                                "a.passoff1_066"
+      66                                "a.passoff1_067"
+      67                                "a.passoff1_068"
+      68                                "a.passoff1_069"
+      69                                "a.passoff1_070"
+      70                                "a.passoff1_070"
+      71                                "a.passoff1_071"
+      72                                "a.passoff1_073"
+      73                                "a.passoff1_074"
+      74                                "a.passoff1_075"
+      75                                "a.passoff1_076"
+      76                                "a.passoff1_077"
+      77                                "a.passoff1_078"
+      78                                "a.passoff1_079"
+      79                                "a.passoff1_080"
+    }
+  }
+}
+
+processes
+{
+  passenger_spawn_0
+  {
+    start-enabled                       1
+    duration                            20
+    
+    outputs
+    {
+      0
+      {
+        amount                          1
+        queue                           "passengers_on_0"
+      }
+    }
+  }
+  
+  passenger_delete_0
+  {
+    start-enabled                       1
+    duration                            3
+    
+    inputs
+    {
+      0
+      {
+        amount                          1
+        queue                           "passengers_off_0"
+      }
+    }
+  }
+}
+category-keyword                        "eSK;StationKit;extensibleStationKit;Bahnsteig;TrainzDepot"
+height-range                            -100,100
+rotstep                                 1
+description                             "eSK - extensible Station Kit. A TrainzDepot Project. See http://trai.nz/eSK/ for Documentation"
+author                                  "-Basti-"
+contact-email                           "basti@trainzdepot.net"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/"
+organisation                            "TrainzDepot.net"
+contact-website                         "http://www.trainzdepot.net"
+
+thumbnails
+{
+  0
+  {
+    image                               "xbs_station.texture"
+    width                               256
+    height                              256
+  }
+  
+  1
+  {
+    image                               "icon_s400.texture"
+    width                               64
+    height                              64
+  }
+  
+  2
+  {
+    image                               "esk_station_thumb.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+  esklib2                               <kuid:500749:200001>
+  stopmesh                              <kuid:500749:299001>
+  displaymesh                           <kuid:500749:291001>
+  signmesh                              <kuid:500749:292012>
+  lampmesh                              <kuid:500749:293001>
+  nullmesh                              <kuid:500749:299002>
+  helper                                <kuid:500749:299003>
+  passenger                             <kuid:-3:10060>
+  imgadd                                <kuid:-19:6998>
+  imgremove                             <kuid:-19:6999>
+  marker_a                              <kuid:500749:299004>
+  marker_b                              <kuid:500749:299005>
+  0                                     <kuid:61015:38105>
+  1                                     <kuid2:53424:152:3>
+  2                                     <kuid:500749:221001>
+  3                                     <kuid2:132952:100825:1>
+}

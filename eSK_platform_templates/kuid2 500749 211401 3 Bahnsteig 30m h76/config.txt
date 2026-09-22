@@ -1,0 +1,364 @@
+﻿
+kuid                                    <kuid2:500749:211401:3>
+username                                "Platform 30m h76 1g s"
+username-de                             "Bahnsteig 30m h76 1g s"
+kind                                    "industry"
+trainz-build                            4.2
+category-class                          "BPF"
+category-era                            "1980s;1990s;2000s;2010s"
+category-region                         "DE"
+script                                  "esk.gs"
+class                                   "ESKGS"
+category-keyword                        "eSK;StationKit;extensibleStationKit;Bahnsteig;TrainzDepot"
+height-range                            -100,100
+rotstep                                 1
+description                             "eSK - extensible Station Kit. A TrainzDepot Project. See http://trai.nz/eSK/ for Documentation"
+author                                  "-Basti-"
+contact-email                           "basti@trainzdepot.net"
+license                                 "CC BY-SA 3.0 DE - https://creativecommons.org/licenses/by-sa/3.0/de/"
+organisation                            "TrainzDepot.net"
+contact-website                         "http://www.trainzdepot.net"
+rotate-yz-range                         -10,10
+rollstep                                0.05
+
+script-include-table
+{
+  0                                     <kuid:500749:200001>
+}
+
+mesh-table
+{
+  default
+  {
+    mesh                                "esk_station.im"
+    auto-create                         1
+    light                               1
+    
+    effects
+    {
+      position_1_1
+      {
+        kind                            "attachment"
+        att                             "a.acc2p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_2
+      {
+        kind                            "attachment"
+        att                             "a.acc1p"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_3
+      {
+        kind                            "attachment"
+        att                             "a.acc0"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_4
+      {
+        kind                            "attachment"
+        att                             "a.acc1n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      position_1_5
+      {
+        kind                            "attachment"
+        att                             "a.acc2n"
+        default-mesh                    <kuid:500749:299003>
+        surveyor-only                   0
+      }
+      
+      marker_a
+      {
+        kind                            "attachment"
+        att                             "a.trig1a"
+        default-mesh                    <kuid:500749:299004>
+        surveyor-only                   1
+      }
+      
+      marker_b
+      {
+        kind                            "attachment"
+        att                             "a.trig1e"
+        default-mesh                    <kuid:500749:299005>
+        surveyor-only                   1
+      }
+      
+      stop_1_0
+      {
+        kind                            "attachment"
+        att                             "a.trig1a"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+      
+      stop_1_1
+      {
+        kind                            "attachment"
+        att                             "a.trig1c"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+      
+      stop_1_2
+      {
+        kind                            "attachment"
+        att                             "a.trig1e"
+        default-mesh                    <kuid:500749:299001>
+        surveyor-only                   1
+      }
+    }
+  }
+}
+
+extensions
+{
+  stationinfo_500749
+  {
+    track_1_platform                    "right"
+    stationspeed                        "40"
+  }
+}
+
+attached-track
+{
+  track_1
+  {
+    track                               <kuid2:53424:152:3>
+    
+    vertices
+    {
+      0                                 "a.track1a"
+      1                                 "a.track1b"
+    }
+  }
+  
+  platform_1
+  {
+    track                               <kuid:500749:221001>
+    
+    vertices
+    {
+      0                                 "a.bs01"
+      1                                 "a.bs02"
+    }
+  }
+  
+  bank_1
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.bank1a"
+      1                                 "a.bank1b"
+    }
+  }
+  
+  fence_1
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.fence1a"
+      1                                 "a.fence1b"
+    }
+  }
+  
+  fence_2
+  {
+    track                               <kuid2:132952:100825:1>
+    
+    vertices
+    {
+      0                                 "a.fence2a"
+      1                                 "a.fence2b"
+    }
+  }
+}
+
+attached-trigger
+{
+  trigger_track_1_ende1
+  {
+    att                                 "a.trig1a"
+    radius                              3
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill1
+  {
+    att                                 "a.trig1b"
+    radius                              3
+    track                               "track_1"
+  }
+  
+  trigger_track_1_mitte
+  {
+    att                                 "a.trig1c"
+    radius                              3
+    track                               "track_1"
+  }
+  
+  trigger_track_1_fill2
+  {
+    att                                 "a.trig1d"
+    radius                              3
+    track                               "track_1"
+  }
+  
+  trigger_track_1_ende2
+  {
+    att                                 "a.trig1e"
+    radius                              3
+    track                               "track_1"
+  }
+}
+
+queues
+{
+  passengers_on_0
+  {
+    passenger-queue                     "1"
+    size                                20
+    initial-count                       10
+    product-kuid                        <kuid:-3:10060>
+    
+    attachment-points
+    {
+      0                                 "a.pass1_001"
+      1                                 "a.pass1_002"
+      2                                 "a.pass1_003"
+      3                                 "a.pass1_004"
+      4                                 "a.pass1_005"
+      5                                 "a.pass1_006"
+      6                                 "a.pass1_007"
+      7                                 "a.pass1_008"
+      8                                 "a.pass1_009"
+      9                                 "a.pass1_010"
+      10                                "a.pass1_011"
+      11                                "a.pass1_012"
+      12                                "a.pass1_013"
+      13                                "a.pass1_014"
+      14                                "a.pass1_015"
+      15                                "a.pass1_016"
+      16                                "a.pass1_017"
+      17                                "a.pass1_018"
+      18                                "a.pass1_019"
+      19                                "a.pass1_020"
+    }
+  }
+  
+  passengers_off_0
+  {
+    passenger-queue                     "1"
+    size                                15
+    initial-count                       0
+    product-kuid                        <kuid:-3:10060>
+    
+    attachment-points
+    {
+      0                                 "a.passoff1_001"
+      1                                 "a.passoff1_002"
+      2                                 "a.passoff1_003"
+      3                                 "a.passoff1_004"
+      4                                 "a.passoff1_005"
+      5                                 "a.passoff1_006"
+      6                                 "a.passoff1_007"
+      7                                 "a.passoff1_008"
+      8                                 "a.passoff1_009"
+      9                                 "a.passoff1_010"
+      10                                "a.passoff1_011"
+      11                                "a.passoff1_012"
+      12                                "a.passoff1_013"
+      13                                "a.passoff1_014"
+      14                                "a.passoff1_015"
+    }
+  }
+}
+
+processes
+{
+  passenger_spawn_0
+  {
+    start-enabled                       1
+    duration                            20
+    
+    outputs
+    {
+      0
+      {
+        amount                          1
+        queue                           "passengers_on_0"
+      }
+    }
+  }
+  
+  passenger_delete_0
+  {
+    start-enabled                       1
+    duration                            3
+    
+    inputs
+    {
+      0
+      {
+        amount                          1
+        queue                           "passengers_off_0"
+      }
+    }
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "xbs_station.texture"
+    width                               256
+    height                              256
+  }
+  
+  1
+  {
+    image                               "icon_s30.texture"
+    width                               64
+    height                              64
+  }
+  
+  2
+  {
+    image                               "esk_station_thumb.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+  esklib2                               <kuid:500749:200001>
+  stopmesh                              <kuid:500749:299001>
+  displaymesh                           <kuid:500749:291001>
+  signmesh                              <kuid:500749:292012>
+  lampmesh                              <kuid:500749:293001>
+  nullmesh                              <kuid:500749:299002>
+  helper                                <kuid:500749:299003>
+  passenger                             <kuid:-3:10060>
+  imgadd                                <kuid:-19:6998>
+  imgremove                             <kuid:-19:6999>
+  marker_a                              <kuid:500749:299004>
+  marker_b                              <kuid:500749:299005>
+  0                                     <kuid:61015:38105>
+  1                                     <kuid2:53424:152:3>
+  2                                     <kuid:500749:221001>
+  3                                     <kuid2:132952:100825:1>
+}
