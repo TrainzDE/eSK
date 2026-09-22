@@ -1,0 +1,2 @@
+Primary=bahnsteig.tga
+Tile=st
